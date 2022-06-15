@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ksz2+Hcc5sjAIlG3qqPrgaAZY7YfgI5yQjjrGBsKyDvHGtlzHsnGEttPfwzY8V8ct44gsKiVYs6zPgT0GW0kOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Desktop\\Decagon Task Repos\\Week-5-Decagon Task\\MyPortfolioWebsite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

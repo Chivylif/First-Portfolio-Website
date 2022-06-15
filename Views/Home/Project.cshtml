@@ -1,0 +1,37 @@
+﻿@model List<ProjectViewModel>
+@{
+    ViewData["Title"] = "Project Page";
+}
+
+<div id="content-wrapper">
+    <section id="work" class="full-height px-lg-5">
+        <div class="container">
+
+            <div class="row pb-4" data-aos="fade-up">
+                <div class="text-center">
+                    <h1>My Recent Projects</h1>
+                </div>
+            </div>
+            <div class="row gy-4">
+                @foreach (var project in Model)
+                {   
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="~/img/project-4.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>@project.Title</h4>
+                                <p>
+                                    @project.Body
+                                </p>
+                                <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                 }
+                </div>
+
+        </div>
+    </section>
+</div>
